@@ -1,0 +1,39 @@
+{
+  "name": "com.manaporkun.ios-input-bridge",
+  "version": "1.0.0",
+  "displayName": "iOS Input Events Bridge",
+  "description": "A Unity plugin that bridges native iOS input events (mouse, keyboard) to Unity's event system. Enables proper handling of hardware peripherals connected to iOS devices.",
+  "unity": "2022.3",
+  "unityRelease": "29f1",
+  "documentationUrl": "https://github.com/manaporkun/unity-ios-input-plugin#readme",
+  "changelogUrl": "https://github.com/manaporkun/unity-ios-input-plugin/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/manaporkun/unity-ios-input-plugin/blob/main/LICENSE",
+  "keywords": [
+    "ios",
+    "input",
+    "mouse",
+    "keyboard",
+    "native",
+    "bridge",
+    "events",
+    "game-controller"
+  ],
+  "author": {
+    "name": "Orkun Manap",
+    "url": "https://github.com/manaporkun"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manaporkun/unity-ios-input-plugin.git"
+  },
+  "dependencies": {
+    "com.unity.textmeshpro": "3.0.6"
+  },
+  "samples": [
+    {
+      "displayName": "Input Visualizer",
+      "description": "A sample scene demonstrating how to use the iOS input bridges with visual feedback.",
+      "path": "Assets/Scenes"
+    }
+  ]
+}
